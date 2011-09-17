@@ -1,0 +1,156 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: helvetica, "MS Trebuchet", sans-serif;
+}
+div.wrap{
+	width:100%;
+
+}
+div.content{
+	width:820px;
+	margin: 0 auto;
+}
+.right{
+	float:right;
+}
+#top_wrap{
+	height:60px;
+	background: #565761;; /* for non-css3 browsers */
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#565761), to(#000)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #565761,  #000); /* for firefox 3.6+ */
+	
+	color:white;
+}
+#contact{
+	padding-top:3px;
+	font-size:14px;
+	line-height:18px;
+	
+}
+#top_content{
+	padding-top:8px;
+}
+#middle_wrap{
+	padding: 40px 0 40px 0;
+	background-color:#e9f5fc;
+	-moz-box-shadow: 1px 1px 5px rgba(0,0,0,.25) inset, -1px -1px 5px white inset;
+	
+}
+#middle_content{
+	padding-top: 8px;
+	line-height:36px;
+	
+}
+#middle_text{
+	line-height:24px;
+	font-size: 14px;
+	margin-top:22px;
+	margin-bottom:8px;
+}
+#iphone{
+	margin-left: -2px;
+}
+
+#testimonials_wrap{
+	margin-top:88px;
+
+	margin: 0 auto;
+}
+#testimonials_wrap h4{
+	font-size:16px;
+}
+#testimonials{
+	padding:20px;
+	background: #ededed;
+	font-size: 14px;
+	line-height: 16px;
+	color:#555555;	
+}
+#bottom_wrap{
+		padding: 40px 0 40px 0;
+}
+#bottom_heading{
+	width:100%;
+	margin-bottom:40px;
+	font-size:20px;
+	font-weight:bold;
+}
+#bottom_text{
+	border-top:1px dotted #CCCCCC;
+	border-bottom:1px dotted #CCCCCC;
+	margin-top:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:14px;
+	line-height:24px;
+}
+
+#explain{
+	float:left;
+	width:50%;
+	margin: 60px 40px 0 20px;
+}
+#slider_wrap{
+	width:322px;
+	 float:right;
+	 margin: 20px 10px 0 0;
+}
+.col{
+	width:48%;
+	font-size:14px;
+	text-align:center;
+}
+.col_text{
+	text-align:left;
+}
+.col_text ul{
+	text-align:left;
+	padding-top:10px;
+	padding-left:12px;
+}
+h3{
+	margin-top:0;
+	margin-bottom:8px;
+}
+h4{
+	margin-top:0;
+	margin-bottom: 4px;
+	line-height:16px;
+	font-size:16px;
+}
+p{
+	margin: 0;
+}
+.clear{
+	clear:both;
+}
+.img{
+	border:none;
+}
+.rounded {
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+}
+.big_text{
+	font-size:62px;
+	width:100%;
+	color:#666;
+	font-weight:bold;
+	text-shadow: 0px 1px 0px #C8D0E7;
+
+}
+ul{
+	padding:0;
+	margin:0;
+}
+#copyright{
+	width:100%;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+	color: lightgrey;
+	font-size:12px;
+}
